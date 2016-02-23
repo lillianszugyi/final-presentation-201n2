@@ -29,6 +29,7 @@ h2 {
   text-align: left;
   color: #2C2C2C;
 }
+
 #title h2 {
   text-align: left;
   color: white;
@@ -40,6 +41,10 @@ h2 {
 h3 {
   color: #6BA2B8;
   padding-top: 10px;
+}
+
+div.margin {
+  margin: 40px;
 }
 
 .vh {
@@ -59,6 +64,7 @@ h3 {
   overflow: hidden;
   opacity: 0.8;
 }
+
 #process {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/Pioneer_Building_Corner.jpg') center no-repeat;
   background-size: cover;
@@ -143,7 +149,6 @@ footer {
   font-size: .75em;
 }
 
-/* Styles for larger screens */
 @media screen and (min-width: 300px) {
 
   .flex {
