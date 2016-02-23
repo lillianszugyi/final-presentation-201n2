@@ -5,48 +5,57 @@
 body {
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: left;
   font-family: sans-serif;
-  color: #222;
+  color: #2C2C2C;
   background: #E0DED9;
 }
 
 #title {
-  text-align: center;
-  background: url('../img/Art_Walk_Ocidental_Mall_1200.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/Art_Walk_Ocidental_Mall_1200.jpg') center no-repeat;
   background-size: cover;
   overflow: hidden;
-  opacity: 0.6;
+  opacity: 0.8;
+  height: 500px;
 }
-
-
+#title p {
+  text-align: left;
+  color: white;
+  font-size: 5em;
+  text-shadow: 0 0 0.2em #808080;
+  padding: 80px 0 0 80px;
+}
 #problem {
-  text-align: center;
-  background: url('../img/davidson_gallery_artwalk_hero_1200.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/davidson_gallery_artwalk_hero_1200.jpg') center no-repeat;
   background-size: cover;
   overflow: hidden;
-  opacity: 0.6;
+  opacity: 0.8;
+  height: 500px;
 }
-
-#resources {
-  text-align: center;
-  background: url('../img/Pioneer_Building_Corner.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
+#problem p {
+  text-align: left;
+  color: white;
+  font-size: 5em;
+  text-shadow: 0 0 0.2em #808080;
+  padding: 80px 0 0 80px;
+}
+#process {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/Pioneer_Building_Corner.jpg') center no-repeat;
   background-size: cover;
   overflow: hidden;
-  opacity: 0.6;
+  opacity: 0.8;
+  height: 500px;
 }
-
-header {
-  line-height: 1.5;
+#process p {
+  text-align: left;
+  color: white;
+  font-size: 5em;
+  text-shadow: 0 0 0.2em #808080;
+  padding: 80px 0 0 80px;
 }
 
 .textbox {
+  align-self: center;
   margin: 30px;
   padding: 20px 40px;
   max-width: 600px;
@@ -74,26 +83,25 @@ ul.skills {
 footer {
   width: 100%;
   padding-top: 20px;
+  text-align: center;
 }
 
 footer #lillian {
-  background: url("../img/lillian.jpg");
-  background-repeat: no-repeat;
+  background: url("../img/lillian.jpg") no-repeat;
   background-size: cover;
   display: inline-flex;
-  overflow:hidden;
-  text-indent:100%;
-  white-space:nowrap;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
   }
 
 footer #serina {
-  background: url("../img/serina.jpg");
-  background-repeat: no-repeat;
+  background: url("../img/serina.jpg") no-repeat;
   background-size: cover;
   display: inline-flex;
-  overflow:hidden;
-  text-indent:100%;
-  white-space:nowrap;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
 }
 
 footer .profile-image {
@@ -106,9 +114,9 @@ footer .profile-image {
 }
 footer .profile-image:hover {
   transform: scale(1.4);
-  border: 3px solid #F5Cf47
+  border: 3px solid #F5Cf47;
 }
-footer .about {
+footer .footer {
   font-size: .75em;
 }
 
@@ -116,27 +124,11 @@ footer .about {
 @media screen and (min-width: 300px) {
 
   .flex {
-      display: flex;
-      max-width: 1200px;
-      justify-content: space-around;
-      margin: 0 auto;
-  }
-
-  header {
-    min-height: 400px;
-  }
-
-  main {
-    padding-top: 50px;
-  }
-
-  main p {
-    line-height: 1.6em;
-  }
-
-  footer {
-    font-size: 1.3em;
-    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 1500px;
+    padding: 0px;
   }
 
 }
