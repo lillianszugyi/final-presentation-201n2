@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+  color: #222;
+  background: #E0DED9;
+}
+
+#title {
+  text-align: center;
+  background: url('../img/Art_Walk_Ocidental_Mall_1200.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  opacity: 0.6;
+}
+
+
+#problem {
+  text-align: center;
+  background: url('../img/davidson_gallery_artwalk_hero_1200.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  opacity: 0.6;
+}
+
+#resources {
+  text-align: center;
+  background: url('../img/Pioneer_Building_Corner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  opacity: 0.6;
+}
+
+header {
+  line-height: 1.5;
+}
+
+.textbox {
+  margin: 30px;
+  padding: 20px 40px;
+  max-width: 600px;
+  text-align: left;
+  background: #FFFFFF;
+}
+
+ul.skills {
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-flex;
+  background: #7773B6;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills li:hover {
+  background: #6BA2B8
+}
+
+footer {
+  width: 100%;
+  padding-top: 20px;
+}
+
+footer #lillian {
+  background: url("../img/lillian.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-flex;
+  overflow:hidden;
+  text-indent:100%;
+  white-space:nowrap;
+  }
+
+footer #serina {
+  background: url("../img/serina.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-flex;
+  overflow:hidden;
+  text-indent:100%;
+  white-space:nowrap;
+}
+
+footer .profile-image {
+  margin-bottom: 50px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid white;
+  transition: all .2s;
+}
+footer .profile-image:hover {
+  transform: scale(1.4);
+  border: 3px solid #F5Cf47
+}
+footer .about {
+  font-size: .75em;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 300px) {
+
+  .flex {
+      display: flex;
+      max-width: 1200px;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  header {
+    min-height: 400px;
+  }
+
+  main {
+    padding-top: 50px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+  }
+
+}
+
+/*COLORS*/
+/*yellow: #F5Cf47
+dkgray: #2C2C2C
+beige: #E0DED9
+lavender: #7773B6
+orange: #E37B01
+teal: #6BA2B8*/
