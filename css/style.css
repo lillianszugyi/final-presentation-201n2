@@ -68,7 +68,6 @@ div.margin {
 #process {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/Pioneer_Building_Corner.jpg') center no-repeat;
   background-size: cover;
-  overflow: hidden;
   opacity: 0.8;
 }
 
@@ -116,7 +115,7 @@ ul.skills {
 }
 
 .skills li:hover {
-  background: #2C2C2C
+  background: gray
 }
 
 div.author {
@@ -130,6 +129,11 @@ div.author {
   padding: 20px;
 }
 
+div.col {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 #lillian {
   background: url("../img/lillian.jpg") no-repeat;
   background-size: cover;
@@ -158,6 +162,7 @@ div.author {
 .profile-image:hover {
   transform: scale(1.4);
   border: 3px solid #F5Cf47;
+  opacity: 0.5;
 }
 
 footer {
