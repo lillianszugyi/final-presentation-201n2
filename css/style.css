@@ -30,7 +30,7 @@ h2 {
   color: #2C2C2C;
 }
 
-#title h2 {
+#overview h2 {
   text-align: left;
   color: white;
   font-size: 3em;
@@ -51,24 +51,41 @@ div.margin {
   height: 100vh;
 }
 
-#title {
+#overview {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/Art_Walk_Ocidental_Mall_1200.jpg') center no-repeat;
   background-size: cover;
   overflow: hidden;
   opacity: 0.8;
 }
 
-#problem {
+#process {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/davidson_gallery_artwalk_hero_1200.jpg') center no-repeat;
   background-size: cover;
   overflow: hidden;
   opacity: 0.8;
 }
 
-#process {
+#res1 {
+  background: url('../img/participants.png') center no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+#res2 {
+  background: url('../img/PS_map.png') center no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+#res3 {
+  background: url('../img/PS_cal.png') center no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+#outcome {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/Pioneer_Building_Corner.jpg') center no-repeat;
   background-size: cover;
-  overflow: hidden;
   opacity: 0.8;
 }
 
@@ -116,7 +133,7 @@ ul.skills {
 }
 
 .skills li:hover {
-  background: #2C2C2C
+  background: gray
 }
 
 div.author {
@@ -130,6 +147,12 @@ div.author {
   padding: 20px;
 }
 
+div.col {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 #lillian {
   background: url("../img/lillian.jpg") no-repeat;
   background-size: cover;
@@ -137,7 +160,7 @@ div.author {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  }
+}
 
 #serina {
   background: url("../img/serina.jpg") no-repeat;
@@ -158,6 +181,7 @@ div.author {
 .profile-image:hover {
   transform: scale(1.4);
   border: 3px solid #F5Cf47;
+  opacity: 0.5;
 }
 
 footer {
