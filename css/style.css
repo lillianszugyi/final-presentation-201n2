@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-family: sans-serif;
+  color: #2C2C2C;
+  background: #E0DED9;
+}
+
+li {
+  font-style: italic;
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+
+h1 {
+  text-align: left;
+  color: white;
+  font-size: 5em;
+  text-shadow: 0 0 0.2em #808080;
+  padding: 80px 80px 0 80px;
+}
+
+h2 {
+  text-align: left;
+  color: #2C2C2C;
+}
+
+#overview h2 {
+  text-align: left;
+  color: white;
+  font-size: 3em;
+  text-shadow: 0 0 0.2em #808080;
+  padding: 0 80px 0 80px;
+}
+
+h3 {
+  color: #6BA2B8;
+  padding-top: 10px;
+}
+
+div.margin {
+  margin: 40px;
+}
+
+.vh {
+  height: 100vh;
+}
+
+#overview {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/Art_Walk_Ocidental_Mall_1200.jpg') center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  opacity: 0.8;
+}
+
+#process {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/davidson_gallery_artwalk_hero_1200.jpg') center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  opacity: 0.8;
+}
+
+#res1 {
+  background: url('../img/participants.png') center no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+#res2 {
+  background: url('../img/PS_map.png') center no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+#res3 {
+  background: url('../img/PS_cal.png') center no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+#outcome {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/Pioneer_Building_Corner.jpg') center no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+#map {
+  background: url('../img/IMG_3933.jpg') center no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  overflow: hidden;
+  text-indent:100%;
+  white-space:nowrap;
+}
+
+.textbox {
+  align-self: center;
+  margin: 30px;
+  padding: 20px 40px;
+  max-width: 600px;
+  text-align: left;
+  background: #FFFFFF;
+}
+
+.google {
+  background: #6BA2B8;
+}
+
+.css {
+  background: #E37B01;
+}
+
+.js {
+  background: #F5Cf47;
+}
+
+ul.skills {
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-flex;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+  font-style: normal;
+}
+
+.skills li:hover {
+  background: gray
+}
+
+div.author {
+  display: flex;
+  justify-content: center;
+}
+
+.author {
+  display: inline-flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+div.col {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#lillian {
+  background: url("../img/lillian.jpg") no-repeat;
+  background-size: cover;
+  display: inline-flex;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+#serina {
+  background: url("../img/serina.jpg") no-repeat;
+  background-size: cover;
+  display: inline-flex;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid white;
+  transition: all .2s;
+}
+.profile-image:hover {
+  transform: scale(1.4);
+  border: 3px solid #F5Cf47;
+  opacity: 0.5;
+}
+
+footer {
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  font-size: .75em;
+}
+
+@media screen and (min-width: 300px) {
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 1500px;
+    padding: 0px;
+  }
+
+}
+
+/*COLORS*/
+/*yellow: #F5Cf47
+dkgray: #2C2C2C
+beige: #E0DED9
+lavender: #7773B6
+orange: #E37B01
+teal: #6BA2B8*/
